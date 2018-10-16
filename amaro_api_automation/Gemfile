@@ -1,0 +1,5 @@
+gem 'capybara/cucumber'
+gem 'pry'
+gem 'httparty'
+gem 'faker'
+gem 'json'
