@@ -1,8 +1,8 @@
-# Desafio QA Constructor
+# Amaro Automation
 
-Abaixo segue as isntruções para rodar, tato a automação Front-end, quanto a Back-end
+Follow the instructions below, to run front-end and back-end automation.
 
-## Pré-requisitos
+## Prerequisites
 
 ```
 Ruby 2.4.2
@@ -10,14 +10,14 @@ Chromedriver 2.40
 Bundler
 ```
 
-## Começando
+## Get start
 
-Para que todos os frameworks funcionem no projeto, é necessário rodar o seguinte comando:
+Install all frameworks and gems running:
 
 ```
 bundle install
 ```
-Em seguida já é possível usar os seguintes comandos, para rodar a automação:
+Then use the commands below, to run the automation:
 
 ```
 Front-End:
@@ -27,11 +27,6 @@ cucumber -t @active_user
 
 cucumber -t @inactive_user
 
-cucumber -t @transaction_active_client
-
-cucumber -t @list_transactions
-
-cucumber -t @regression
 
 Back-End:
 cucumber -t @login
